@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# DBT
+dbt/my_project/target/
+dbt/my_project/logs/
+dbt/my_project/dbt_packages/
+
+# Airflow
+airflow/logs/
+airflow/plugins/
+
+# Database
+postgres/data/
+
+# Environment variables
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

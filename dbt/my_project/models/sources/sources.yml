@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: raw_data           # ← Nom logique plus clair
+    database: db_postgres        # ← Le nom réel de votre DB
+    schema: public               # ← Ajouter le schema
+    tables:
+      - name: weather_data 
+        columns:
+          - name: id
+          - name: city
+          - name: temperature
+          - name: humidity
+          - name: pressure
+          - name: wind_speed
+          - name: description
+          - name: country
+          - name: region
+          - name: observation_time
+          - name: created_at
